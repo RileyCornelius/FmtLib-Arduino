@@ -24,11 +24,11 @@
 #pragma pop_macro("F")
 #pragma pop_macro("B1")
 
-// Custom formatter
+// Custom Arduino String formatter
 template <>
 struct fmt::formatter<String> : fmt::formatter<const char *>
 {
-    auto format(const String &s, fmt::format_context &ctx) const
+    fmt::format_context::iterator format(const String &s, fmt::format_context &ctx) const
     {
         return fmt::formatter<const char *>::format(s.c_str(), ctx);
     }
