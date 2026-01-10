@@ -1,7 +1,7 @@
 {
     "name": "FmtLib",
-    "version": "11.2.2",
-    "keywords": "format, fmtlib, fmt",
+    "version": "12.1.0",
+    "keywords": "format, fmtlib, fmt, sprintf, iostream, arduino",
     "license": "MIT",
     "frameworks": "*",
     "platforms": "*",
@@ -20,7 +20,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/RileyCornelius/FmtLib-Arduino.git"
+        "url": "https://github.com/RileyCornelius/FmtLib.git"
     },
     "export": {
         "exclude": [

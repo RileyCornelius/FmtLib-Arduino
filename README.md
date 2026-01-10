@@ -2,7 +2,7 @@
 
 > A port of the {fmt} library for Arduino.
 
-This port is based on {fmt} 11.2.0 and is provided as a header-only wrapper to play nicely with the Arduino build system while keeping the binary size small.
+This port is based on {fmt} 12.1.0 and is provided as a header-only wrapper to play nicely with the Arduino build system while keeping the binary size small.
 
 ## Usage
 
